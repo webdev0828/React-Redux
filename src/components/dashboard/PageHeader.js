@@ -23,11 +23,9 @@ class Header extends React.Component {
 
   onSelectTableStyle() {
     this.props.setTableStyle()
-    console.log(this.props.style)
   }
   onSelectCardsStyle() {
     this.props.setCardsStyle()
-    console.log(this.props.style)
   }
   render() {
     return (
@@ -70,7 +68,7 @@ class Header extends React.Component {
           </div>
         </Row>
         <Row>
-          <Card className="article-number">
+          <Card className="article-number content-header">
             <CardBody className="p-0">
               <div className="blog-comments__content">
                 <div className="blog-comments__meta text-mutes">

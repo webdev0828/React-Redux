@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col } from 'shards-react'
+import { Row } from 'shards-react'
 import TableContent from './Content/TableContent'
 import CardContent from './Content/CardContent'
 import { connect } from 'react-redux'
